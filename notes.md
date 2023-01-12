@@ -20,8 +20,8 @@ Javascript can be executed on a webpage in a number of ways, including:
     - Booleans
     - Undefined, null are special values
     - Objects, used to store collections of data and more complex entities
-- Expressions
-    - if / else syntax:
+### Expressions    
+- If / Else syntax:
     ```
     let shoppingDone = false;
     let childsAllowance;
@@ -32,7 +32,7 @@ Javascript can be executed on a webpage in a number of ways, including:
     childsAllowance = 5;
     }
     ```
-    - switch statements: takes a single expression/value as an input, and then look through several choices until they find one that matches that value, executing the corresponding code that goes along with it. Syntax:
+- Switch Statements: takes a single expression/value as an input, and then look through several choices until they find one that matches that value, executing the corresponding code that goes along with it. Syntax:
     ```
     switch (expression) {
     case choice1:
@@ -49,7 +49,7 @@ Javascript can be executed on a webpage in a number of ways, including:
         actually, just run this code
     }
     ```
-    - Ternary Operator:  Tests a condition and returns one value/expression if it is true, and another if it is false. Can only take 2 choices, but can be more readable than 'if else' statements. Syntax:
+- Ternary Operator:  Tests a condition and returns one value/expression if it is true, and another if it is false. Can only take 2 choices, but can be more readable than 'if else' statements. Syntax:
     ```
     condition ? run this code : run this code instead
 
