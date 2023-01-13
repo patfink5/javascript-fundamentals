@@ -58,3 +58,19 @@ Javascript can be executed on a webpage in a number of ways, including:
     ? 'Happy birthday Mrs. Smith — we hope you have a great day!'
     : 'Good morning Mrs. Smith.';
     ```
+
+### Functions
+- Invoking Functions, syntax:
+    ```
+    function myFunction() { --Define the function
+    alert('hello');
+    }
+
+    myFunction(); -- executes the function once
+    ```
+- Parameters: You can include parameters within the parens when defining the function. If you leave it as empty, the function will typically adopt a default behavior.
+
+- In the above example, we define a function explicitly. However, you can create functions without names. This will often be the case when a function expects to receive another function as a paramter. 
+
+- Return Values:
+- Function Scope:
