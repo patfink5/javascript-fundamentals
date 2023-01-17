@@ -79,3 +79,25 @@ Javascript can be executed on a webpage in a number of ways, including:
   return result;
     }
     ```
+
+### Arrays
+- Syntax: ``` const array_name = [item1, item2, ...];  ```
+- Best Practices: 
+    - Declare arrays with the ```const``` keyword
+    - Spaces and linebreaks are not needed. Separate items with a comma, within square brackets.
+    - You can also create an array, then provide elements:
+    ```
+    const cars = [];
+    cars[0]= "Saab";
+    cars[1]= "Volvo";
+    cars[2]= "BMW";
+    ```
+- Built-in Array Methods:
+    - ```toString()``` converts an array to a string of (comma separated) array values
+    - Similarly, ```join()``` joins all array elements into a string, but you specify the separator.
+    - ```pop()``` method removes the last element from an array
+    - ```push()``` method adds a new element to an array (at the end)
+    - ```shift()``` method removes the first array element and "shifts" all other elements to a lower index.
+    - ```unshift()``` method adds a new element to an array (at the beginning), and "unshifts" older elements
+
+- Changing Elements: 
