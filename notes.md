@@ -72,5 +72,10 @@ Javascript can be executed on a webpage in a number of ways, including:
 
 - In the above example, we define a function explicitly. However, you can create functions without names. This will often be the case when a function expects to receive another function as a paramter. 
 
-- Return Values:
-- Function Scope:
+- Return Values: Named simply, return values are the values that are returned when a function completes running. To return a value from a custom function, you need to use the return keyword. Example:
+    ```
+    function random(number) {
+  const result = Math.floor(Math.random() * number);
+  return result;
+    }
+    ```
