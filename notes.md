@@ -100,4 +100,31 @@ Javascript can be executed on a webpage in a number of ways, including:
     - ```shift()``` method removes the first array element and "shifts" all other elements to a lower index.
     - ```unshift()``` method adds a new element to an array (at the beginning), and "unshifts" older elements
 
-- Changing Elements: 
+- Changing Elements: Array elements are accessed by their index number starting with [0]
+    - You can overwrite an element directly
+    ```
+    # Change Banana to Kiwi
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits[0] = "Kiwi";
+    ```
+    - length property provides an easy way to append a new element to an array:
+    ```
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits[fruits.length] = "Kiwi";
+    ```
+    
+    - Note: You can use the delete keyword to remove elements from an array, but it will leave `undefined` holes in an array. Recommended to use pop or shift instead to remove elements.
+    
+    - `concat()` method creates a new array by merging (concatenating) existing arrays:
+    ```
+    const myGirls = ["Cecilie", "Lone"];
+    const myBoys = ["Emil", "Tobias", "Linus"];
+
+    const myChildren = myGirls.concat(myBoys);
+    ```
+
+    - `splice()` method adds new items to an array. `slice()` method slices out a piece of an array.
+
+### Loops
+
+- ss
